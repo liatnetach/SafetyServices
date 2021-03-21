@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SafetyServices</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_popup">Popup</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string-array name="Services">
+        <item>Dogwalking</item>
+        <item>Dogsitter</item>
+        <item>Babysitter</item>
+    </string-array>
+    <string-array name="Area">
+        <item>North District</item>
+        <item>South District</item>
+        <item>Center District</item>
+        <item>Haifa District</item>
+        <item>Jerusalem District</item>
+    </string-array>
+    <string name="areaSpinner">Choose area</string>"
+    <!-- <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>-->
+    <string name="action_settings">Settings</string>
+</resources>

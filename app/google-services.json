@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584893998424",
+    "project_id": "safetyfirst-1926a",
+    "storage_bucket": "safetyfirst-1926a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584893998424:android:e12520c4a4b5d99765b12d",
+        "android_client_info": {
+          "package_name": "com.first.safetyservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584893998424-9gkl6s53mbua7rqvuq5uec6lj0ccdifs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABbfwMpqWba_iPWZX_wTGnDV-_YW4US7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584893998424-9gkl6s53mbua7rqvuq5uec6lj0ccdifs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

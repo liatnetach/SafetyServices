@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activities.MainActivity"
+    android:background="@drawable/def_background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/showMyRequestsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Show me the unchecked Requests"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/showMyApproves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Show me my approved responses"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/rateAndReviewsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttonstyle"
+        android:text="See your Rating and Reviews"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/summaryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttonstyle"
+        android:text="manage self summary"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/buttonLogoutGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="logout"
+        android:text="LogOut"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

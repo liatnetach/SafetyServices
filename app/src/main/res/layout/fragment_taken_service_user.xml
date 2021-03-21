@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activities.MainActivity"
+    android:background="@drawable/def_background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/showProvidersResponsesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Show my requests responses"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/searchProvidersBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Search services providers"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonLogoutTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="logout"
+        android:text="LogOut"
+        android:textColor="@color/white" />
+
+</LinearLayout>
